@@ -3,7 +3,8 @@ const AuthenticatorService = require('./AuthenticatorService')
 
 module.exports = {
   async sendMessage (text, context) {
-    const { assistant, sessionID } = await AuthenticatorService.getAssistant()
+    const authenticatorService = AuthenticatorService.getInstance()
+    const { assistant, sessionID } = await authenticatorService.getAssistant()
     const response = await assistant.message({
       input: { text: text},
       context: context,
