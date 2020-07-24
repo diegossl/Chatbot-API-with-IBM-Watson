@@ -1,32 +1,32 @@
-# API para Chatbot de conversação com o IBM Watson
+# API for Chat with IBM Watson
 
-Chatbot é um programa de computador que tenta simular um ser humano na conversação com as pessoas. O objetivo é responder as perguntas de tal forma que as pessoas tenham a impressão de estar conversando com outra pessoa e não com um programa de computador.
+Chatbot is a computer program that tries to simulate a human being in conversation with people. The goal is to answer questions in such a way that people feel as if they are talking to someone else rather than a computer program.
 
-O Watson Assistant é uma plataforma de IA de conversação que ajuda a fornecer aos clientes respostas rápidas, diretas e precisas às suas perguntas, em qualquer aplicativo, dispositivo ou canal. Ao abordar perguntas comuns dos clientes, o Watson Assistant reduz o custo das interações com os clientes, ajudando seus agentes a se concentrarem em casos de uso complexos - e não em respostas repetitivas.
+Watson Assistant is a chat AI platform that helps provide customers with quick, direct and accurate answers to their questions, in any application, device or channel. By addressing common customer questions, Watson Assistant reduces the cost of interactions with customers, helping their agents to focus on complex use cases - not repetitive responses.
 
-Esta API faz a integração com o sistema do IBM Watson Assistant para uma conversação simples do dia-a-dia de uma pessoa comum como saudação, atividades diárias, trabalho, estudos, etc.
+This API integrates with the IBM Watson Assistant system for a simple conversation of the daily life of an ordinary person such as greeting, daily activities, work, studies, etc.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Em seguida, crie um arquivo chamado **.env** e copie para ele o conteúdo do arquivo **.env.exemple**, que já existe no projeto. Então digite o seguinte comando no terminal:
+Then create a file called **.env** and copy the contents of the file **.env.example**, which already exists in the project. Then type the following command in the terminal:
 
-Por fim, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 npm start
 ```
 
-O sistema está pronto para ser usado na rota:
+The system is ready to be used on the route:
 
 [http://localhost:3333/message](http://localhost:3333/message)
 
-## Exemplo de entrada de dados:
+## Example of data entry:
 
 Um objeto JSON contendo uma frase.
  
@@ -35,7 +35,7 @@ Um objeto JSON contendo uma frase.
   "text": "Olá, como está?"
 }
 ```
-## Exemplo de saída de dados:
+## Example of output:
 
 ```javascript
 {
@@ -47,6 +47,6 @@ Um objeto JSON contendo uma frase.
   ]
 }
 ```
-## Licença
+## License
 
 MIT
