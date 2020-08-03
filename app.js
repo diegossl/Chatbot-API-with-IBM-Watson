@@ -1,12 +1,12 @@
-var express = require('express')
-var cookieParser = require('cookie-parser')
-var logger = require('morgan')
+const express = require('express')
+const cookieParser = require('cookie-parser')
+const logger = require('morgan')
 
-var gatewayRouter = require('./routes/gateway')
+const gatewayRouter = require('./routes/gateway')
 
 require('dotenv').config()
 
-var app = express()
+const app = express()
 
 app.use(logger('dev'))
 app.use(express.json())

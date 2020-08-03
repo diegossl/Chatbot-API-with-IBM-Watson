@@ -1,4 +1,3 @@
-const Env = require('../config/Env')
 const AuthenticatorService = require('./AuthenticatorService')
 
 module.exports = {
@@ -8,7 +7,7 @@ module.exports = {
     const response = await assistant.message({
       input: { text: text},
       context: context,
-      assistantId: Env.get('ASSISTANT_ID'),
+      assistantId: process.env.ASSISTANT_ID,
       sessionId: sessionID
     })
     return response.result.output
