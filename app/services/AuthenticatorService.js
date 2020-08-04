@@ -10,6 +10,7 @@ class AuthenticatorService {
     }
     return instance
   }
+
   async getAssistant () {
     const credentials = {
       authenticator: new IamAuthenticator({ apikey: process.env.ASSISTANT_API_KEY }),
