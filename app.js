@@ -2,10 +2,10 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 const logger = require('morgan')
 const cors = require('cors')
-
+const dotenv = require('dotenv')
 const indexRouter = require('./routes/index')
 
-require('dotenv').config()
+dotenv.config()
 
 const app = express()
 

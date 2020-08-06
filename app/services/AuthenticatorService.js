@@ -1,16 +1,7 @@
 const AssistantV2 = require('ibm-watson/assistant/v2')
 const { IamAuthenticator } = require('ibm-watson/auth')
 
-var instance = null
-
-class AuthenticatorService {
-  static getInstance () {
-    if (!instance) {
-      instance = new AuthenticatorService()
-    }
-    return instance
-  }
-
+module.exports = {
   async getAssistant () {
     const credentials = {
       authenticator: new IamAuthenticator({ apikey: process.env.ASSISTANT_API_KEY }),
@@ -21,9 +12,7 @@ class AuthenticatorService {
     const { result } = await assistant.createSession({
       assistantId: process.env.ASSISTANT_ID
     })
-    const sessionID = result.session_id
-    return { assistant, sessionID }
+    const sessionId = result.session_id
+    return { assistant, sessionId }
   }
 }
-
-module.exports = AuthenticatorService
