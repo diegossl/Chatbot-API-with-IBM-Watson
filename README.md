@@ -35,7 +35,7 @@ The system is ready to be used on the route:
 
 ## Example of data entry:
 
-Um objeto JSON contendo uma frase.
+A JSON object containing a phrase.
  
 ```javascript
 {
@@ -43,7 +43,7 @@ Um objeto JSON contendo uma frase.
 }
 ```
 
-**Exemplos de frases:**
+**Example sentences:**
 
 - Qual vinho combina mais com carnes de caça?
 - Qual vinho é adequado para bacalhau?
