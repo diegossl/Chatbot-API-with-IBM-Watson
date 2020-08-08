@@ -29,9 +29,7 @@ npm start
 
 The system is ready to be used on the route:
 
-**POST**
-
-[http://localhost:3333/message](http://localhost:3333/message)
+**POST** [http://localhost:3333/message](http://localhost:3333/message)
 
 ## Example of data entry:
 
