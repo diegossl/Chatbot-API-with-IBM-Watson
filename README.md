@@ -29,6 +29,8 @@ npm start
 
 The system is ready to be used on the route:
 
+**POST**
+
 [http://localhost:3333/message](http://localhost:3333/message)
 
 ## Example of data entry:
@@ -37,21 +39,24 @@ Um objeto JSON contendo uma frase.
  
 ```javascript
 {
-  "text": "Olá, como está?"
+  "text": "Qual vinho combina mais com carnes de caça?"
 }
 ```
-## Example of output:
 
-```javascript
-{
-  "generic": [
-    {
-      "response_type": "text",
-      "text": "Olá"
-    }
-  ]
-}
-```
+**Exemplos de frases:**
+
+- Qual vinho combina mais com carnes de caça?
+- Qual vinho é adequado para bacalhau?
+- Preciso de um vinho para combinar com peixe.
+- Pretendo servir queijo branco como aperitivo. Qual é o vinho que melhor combina - com este queijo?
+- Eu quero uma sugestão de vinho branco para acompanhar com carne vermelha.
+- Tenho um vinho tinto francês Les Violettes. Que prato você sugere que eu devo -  fazer para acompanhar este vinho?
+- Tenho um vinho chileno Rosé Céfiro. Que prato eu devo preparar?
+- Vou dar um jantar em casa. Qual vinho devo comprar?
+- Vou servir uma massa no almoço. Qual é o vinho que melhor combina?
+- Pretendo servir queijo como aperitivo. Qual é o vinho que melhor combina?
+- Tenho um vinho tinto, que prato preparar?
+
 ## License
 
 MIT
