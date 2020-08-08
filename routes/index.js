@@ -1,6 +1,7 @@
 const express = require('express')
-const router = express.Router()
 const IndexController = require('../app/IndexController')
+
+const router = express.Router()
 
 router.post('/message', IndexController.send)
 
