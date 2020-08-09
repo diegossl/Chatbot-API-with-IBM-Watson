@@ -1,4 +1,4 @@
-# API for Chat with IBM Watson
+# API for virtual wine harmonizer with IBM Watson
 
 Chatbot is a computer program that tries to simulate a human being in conversation with people. The goal is to answer questions in such a way that people feel as if they are talking to someone else rather than a computer program.
 
