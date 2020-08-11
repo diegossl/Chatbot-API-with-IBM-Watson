@@ -1,9 +1,5 @@
 # API for virtual wine harmonizer with IBM Watson
 
-Chatbot is a computer program that tries to simulate a human being in conversation with people. The goal is to answer questions in such a way that people feel as if they are talking to someone else rather than a computer program.
-
-Watson Assistant is a chat AI platform that helps provide customers with quick, direct and accurate answers to their questions, in any application, device or channel. By addressing common customer questions, Watson Assistant reduces the cost of interactions with customers, helping their agents to focus on complex use cases - not repetitive responses.
-
 This API integrates with the IBM Watson Assistant system to use the virtual wine harmonization assistant. The assistant analyzes the user's wine and food orders and responds with the appropriate wine or food options.
 
 ## Setup
